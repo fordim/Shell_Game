@@ -1,0 +1,72 @@
+.mainPage{
+    background-image:url(../img/scroll.jpg);
+    background-repeat: no-repeat;
+    background-position:50% 0;
+}
+
+.wrapper{
+    width:570px;
+    height:600px;
+    margin:40px auto;
+}
+
+header{
+    height:55px;
+    text-align:center;
+    font-size:45px;
+    color: saddlebrown;
+    font-family:"comic Sans Ms", sans-serif;
+    font-weight:900;
+    margin:10px;
+}
+
+header > p {
+    margin: 0;
+    height:50px;
+}
+
+.gameBlocks{
+    height:500px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.gameBlock{
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin:5px 15px;
+    border:1px solid black;
+    text-align:center;
+    background-image:url("../img/shirt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gameBlock:hover{
+    opacity: 0.5;
+}
+
+footer{
+    height:50px;
+    margin:10px;
+}
+
+.resetGame{
+    display: block;
+    color: saddlebrown;
+    width:200px;
+    height:40px;
+    font-family:"comic Sans Ms", sans-serif;
+    margin:0 auto;
+
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    background: linear-gradient(rgb(270, 200, 0), rgb(230, 195, 0));
+    font-size:26px;
+    text-align:center;
+}
+
+.resetGame:hover {
+    background: linear-gradient(rgb(290, 215, 0), rgb(245, 205, 0));
+}
